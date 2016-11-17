@@ -1,0 +1,14 @@
+#body-class {
+   background-color: #000000;
+   width: 100%;
+}
+
+.clock-output
+ {
+ 	width: 350px;
+ 	height: 200px;
+ 	margin: 0 auto;
+ 	font-size: 80px;
+ 	color: yellow;
+ 	margin-top: 200px;
+ }
