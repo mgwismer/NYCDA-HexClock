@@ -3,12 +3,19 @@
    width: 100%;
 }
 
-.clock-output
- {
+.clock-output {
  	width: 350px;
  	height: 200px;
  	margin: 0 auto;
  	font-size: 80px;
  	color: yellow;
  	margin-top: 200px;
+ }
+
+ .clock-message {
+ 	width: 500px;
+ 	margin: 0 auto;
+ 	font-size: 35px;
+ 	color: yellow;
+ 	text-align: center;
  }
