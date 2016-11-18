@@ -24,13 +24,13 @@ function changeTheSite(h,m,s) {
 function changeTheSiteHourly(hour) {
     var message = document.getElementById("clck-message");
     console.log(hour)
-    if ((hour > 7) && (hour < 9))
+    if ((hour >= 7) && (hour =< 9))
     	message.innerHTML = "Good Morning, Time to Rise and Shine";
-    else if ((hour > 10) && (hour < 12))
+    else if ((hour >= 10) && (hour =< 12))
     	message.innerHTML = "Hang on, almost time for lunch";
-    else if ((hour > 13) && (hour < 15))
+    else if ((hour >= 13) && (hour =< 15))
     	message.innerHTML = "Ahhh, Enjoy Siesta";
-    else if ((hour > 16) && (hour < 18))
+    else if ((hour >= 16) && (hour =< 18))
     	message.innerHTML = "Tea time in Europe, Happy Hour?"
     else
     	message.innerHTML = "Get a good's night rest!"
